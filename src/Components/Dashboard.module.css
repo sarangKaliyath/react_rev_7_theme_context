@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  height: 94.5%;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > form {
+  width: 50%;
+  height: 65%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5% 0%;
+  border-radius: 10%;
+
+}
+.container,
+.container > form {
+  display: flex;
+}
+
+.container form > input {
+  width: 50%;
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #EEEEEE;
+}
+.container form > input:focus {
+  outline: none;
+}
+.container form > input:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  padding: 2%;
+}
+.container form > input:last-child {
+  width: 51%;
+  border: 1px solid #0F044C;
+  border-radius: 0%;
+}
